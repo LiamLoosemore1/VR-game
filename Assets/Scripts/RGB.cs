@@ -1,11 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class RGB : MonoBehaviour
 {
     Light lt;
-
+   
     public float every;   //The public variable "every" refers to "Lerp the color every X"
     float colorstep;
     Color[] colors = new Color[4]; //Insert how many colors you want to lerp between here, hard coded to 4
@@ -21,7 +19,9 @@ public class RGB : MonoBehaviour
         colors[0] = Color.red;
         colors[1] = Color.yellow;
         colors[2] = Color.cyan;
-        colors[3] = Color.red;
+        colors[3] = Color.magenta;
+        colors[4] = Color.black;
+        colors[5] = Color.red;
 
     }
 
